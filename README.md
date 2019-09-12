@@ -24,9 +24,9 @@ Result will look like this:
 
  json structure:
 
- .  
- ├──"entity"  
- |    ├──"alert"  
+    .  
+    ├──"entity"  
+    |    ├──"alert"  
  |    ├──"id"  
  |    └──"trip_update"  
  |         ├──"stop_time_update"  
