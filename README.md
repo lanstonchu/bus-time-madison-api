@@ -18,7 +18,8 @@ Result will look like this:
  json structure:
 
  .
- ├──"entity" \n
+ ├──"entity"
+ 
  |    ├──"alert"
  |    ├──"id"
  |    └──"trip_update"
