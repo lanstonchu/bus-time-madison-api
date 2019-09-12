@@ -15,11 +15,14 @@ Result will look like this:
 
  -----------------------------------------------
 
+a \n b \n c
+
+
  json structure:
 
  .
  ├──"entity"
- 
+
  |    ├──"alert"
  |    ├──"id"
  |    └──"trip_update"
