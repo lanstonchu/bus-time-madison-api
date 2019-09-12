@@ -15,36 +15,39 @@ Result will look like this:
 
  -----------------------------------------------
 
-a \n b \n c  
-d
+<!--
+    use two spaces instead of \n to force a line break
+    for example,
+    Hello  (<-- two spaces)
+    World
+-->
 
  json structure:
 
- .
- ├──"entity"
-
- |    ├──"alert"
- |    ├──"id"
- |    └──"trip_update"
- |         ├──"stop_time_update"
- |         |    ├──"arrival"
- |         |    ├──"departure"
- |         |    |    ├──"delay"
- |         |    |    └──"time"
- |         |    ├──"schedule_relationship"
- |         |    ├──"stop_id"
- |         |    └──"stop_sequence"
- |         ├──"timestamp"
- |         ├──"trip"
- |         |    ├──"route_id"
- |         |    ├──"schedule_relationship"
- |         |    ├──"start_date"
- |         |    └──"trip_id"
- |         └──"vehicle"
- |              ├──"id"
- |              └──"label"
- └──"header"
-      ├──"incrementality"
-      └──"timestamp"
+ .  
+ ├──"entity"  
+ |    ├──"alert"  
+ |    ├──"id"  
+ |    └──"trip_update"  
+ |         ├──"stop_time_update"  
+ |         |    ├──"arrival"  
+ |         |    ├──"departure"  
+ |         |    |    ├──"delay"  
+ |         |    |    └──"time"  
+ |         |    ├──"schedule_relationship"  
+ |         |    ├──"stop_id"  
+ |         |    └──"stop_sequence"  
+ |         ├──"timestamp"  
+ |         ├──"trip"  
+ |         |    ├──"route_id"  
+ |         |    ├──"schedule_relationship"  
+ |         |    ├──"start_date"  
+ |         |    └──"trip_id"  
+ |         └──"vehicle"  
+ |              ├──"id"  
+ |              └──"label"  
+ └──"header"  
+      ├──"incrementality"  
+      └──"timestamp"  
 
 [1]: https://github.com/lanstonchu/bus-time-madison-api/blob/master/Bus%20Screen.png?raw=true
